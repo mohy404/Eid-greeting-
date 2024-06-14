@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>عيد أضحى مبارك</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>عيد أضحى مبارك! </h1>
+        <button id="sound-toggle" onclick="toggleSound()">🔊 كتم/تشغيل الصوت</button>
+    </header>
+    
+    
+    <main>
+        <section class="greeting-section">
+            <p>أدخل اسمك للحصول على تهنئة مخصصة</p>
+            <input type="text" id="userName" placeholder="اكتب اسمك هنا">
+            <button onclick="displayGreeting()">احصل على التهنئة</button>
+        </section>
+
+        <section class="message-section">
+            <p id="greetingMessage"></p>
+        </section>
+
+        <section class="prayer-section">
+            <p>لا تنسَ الدعاء لإخواننا في السودان وفي غزة</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 عيد سعيد للجميع</p>
+        <div class="social-media">
+            <a href="#" id="facebook-share">شارك على فيسبوك</a>
+            <a href="#" id="twitter-share">شارك على تويتر</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
