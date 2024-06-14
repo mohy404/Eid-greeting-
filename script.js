@@ -1,15 +1,15 @@
 // script.js
-var audio = new Audio('eid-takbeer.mp3'); // تأكد من وجود ملف الصوت في نفس المسار
+var audio = new Audio('eid-takbeer.mp3'); 
 var isMuted = false;
 
 function displayGreeting() {
     var userName = document.getElementById('userName').value;
     var messageElement = document.getElementById('greetingMessage');
 
-    // التحقق من أن الاسم مكتوب بالعربية فقط
+   
     var arabicPattern = /^[\u0600-\u06FF\s]+$/;
     if (!arabicPattern.test(userName)) {
-        messageElement.innerHTML = "مش هينفع والله يابيه لازم تكتب اسمك بالعربي";
+        messageElement.innerHTML = "مش هينفع والله يابيه لازم تكتب اسمك بالعربي 😅";
         return;
     }
 
