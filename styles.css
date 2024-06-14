@@ -192,6 +192,19 @@ footer p {
     background-color: #218838;
 }
  
+
+.social-media a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.social-media a:hover {
+    color: #3a6186; /* لون مميز جديد */
+}
+
+
 /* Responsive Design */
 @media (max-width: 768px) {
     h1 {
